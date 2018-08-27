@@ -454,7 +454,7 @@ class File
             ['v', strlen($comment)],                // Length of comment
             ['v', 0],                               // Disk number
             ['v', 0],                               // Internal File Attributes
-            ['V', 32],                              // External File Attributes
+            ['N', 46721],                              // External File Attributes
             ['V', $this->ofs->getLowFF()]           // Relative offset of local header
         ];
 
